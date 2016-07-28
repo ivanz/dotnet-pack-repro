@@ -1,0 +1,17 @@
+{
+    "version": "0.10.0-unstable-*",
+    "frameworks": {
+        "net46": {
+            "dependencies": {
+                "DependencyProject": {
+                    "target": "project"
+                }
+            }
+        },
+        "netstandard1.5": {
+            "dependencies": {
+                "NETStandard.Library": "1.6.0"
+            }
+        }
+    }
+}
